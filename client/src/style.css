@@ -1,0 +1,188 @@
+body{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    /* background-color: #2C3333; */
+    /* color: white; */
+}
+
+input{
+    padding: 1.5%;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 0;
+    border-bottom: 1px solid black;
+}
+
+/* Non-auth Pages */
+    .nav{
+        background: linear-gradient(0deg, rgba(255,174,11,1) 18%, rgba(255,205,0,1) 69%, rgba(255,209,0,1) 100%);
+        height: 7vh;
+        font-size: 1.7rem;
+        text-align: right;
+        padding-top: 1%;
+        font-family: 'Merriweather', serif;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    /* Landing Page: Home */
+        .link{
+            text-decoration: none;
+            padding: 1.5%;
+            color: black;
+        }
+
+        .logo{
+            width: 80%;
+        }
+
+        .bg-side{
+            position: absolute;
+            padding-top: 5%;
+            right: 0;
+            width: 30%;
+            opacity: 0.8;
+        }
+
+        .head{
+            font-size: 4.5rem;
+        }
+
+        .head-section{
+            padding: 1% 10% 10% 10%;
+            width: 40%;
+        }
+
+        .btn1{
+            margin: 8%;
+            border: 0;
+            width: 30%;
+            padding: 3%;
+            margin-left: 10%;
+            border-radius: 80px;
+            background: linear-gradient(0deg, rgba(255,174,11,1) 18%, rgba(255,205,0,1) 69%, rgba(255,209,0,1) 100%);
+            font-size: 1.3rem;
+            font-weight: bold;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .cd-1{
+            display: flex;
+            flex-direction: column;
+            width: 31%;
+            align-items: center;
+            padding: 2%;
+            margin: 1.5%;
+            box-shadow: 0 4px 8px 0 rgba(0,  0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 20px;
+        }
+
+        .cd-img-1{
+            width: 45%;
+        }
+
+        .cd-cnt-1{
+            font-size: 1.1rem;
+            text-align: center;
+            padding: 7%;
+        }
+
+        .cd-section{
+            display: flex;
+            flex-direction: row;
+            margin-top: 10%;
+        }
+
+    /* Landing Pages: Cards */
+        .cards{
+            margin-top: 1%;
+            padding: 10%;
+        }
+
+        .chart{
+            width: 28%;
+            float: left;
+        }
+
+        .card-cnt-1{
+            padding: 7%;
+            margin-left: 26%;
+        }
+
+        .card-cnt-2{
+            margin-top: 11%;
+            padding: 7%;
+        }
+
+        .card-cnt-3{
+            margin-top: 11%;
+            margin-left: 26%;
+            padding: 5% 5% 0% 5%;
+        }
+
+        .leaf{
+            width: 28%;
+            float: right;
+        }
+
+        .iot{
+            width: 28%;
+            float: left;
+            padding-top: 5%;
+        }
+
+    /* Landing Page: Footer */
+        .footer{
+            text-align: center;
+        }
+
+        .line{
+            width: 90%;
+            padding: 0.2%;
+            border-radius: 10px;
+            border: 0;
+            background: linear-gradient(0deg, rgba(255,174,11,1) 18%, rgba(255,205,0,1) 69%, rgba(255,209,0,1) 100%);
+        }
+
+        .icons{
+            padding-top: 1%;
+            padding-left: 1.4%;
+            font-size: 2.3rem;
+            color: orange;
+        }
+
+/* Login and SignIn Form */
+        .auth-forms{
+            margin-top: 3%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .oauth-btn{
+            margin-top: 1%;
+            padding: 1%;
+            width: 15%;
+            border-radius: 80px;
+            border: 0;
+            font-size: 1.2rem;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            color: white;
+            background: linear-gradient(0deg, rgba(9,183,185,1) 0%, rgba(11,141,219,1) 100%, rgba(0,186,200,1) 100%);
+        }
+
+        .submit{
+            margin: 2% 0 1% 0;
+            font-size: 1.2rem;
+            width: 10%;
+            padding: 1%;
+            border-radius: 80px;
+            border: 0;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background: linear-gradient(0deg, rgba(9,183,185,1) 0%, rgba(11,141,219,1) 100%, rgba(0,186,200,1) 100%);
+            color: white;
+        }
+
+        .valid{
+            background-color: green;
+        }
